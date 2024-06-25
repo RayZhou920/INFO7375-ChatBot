@@ -1,5 +1,9 @@
 # info7375-chatbot
 
+### Youtube video link
+
+https://www.youtube.com/watch?v=VupnwP0bE-I
+
 ### Setup process
 
 1. Head to current directory in your command line
@@ -21,6 +25,7 @@
 1. Questions regarding non-health topics will not be responded and give users an error message
 2. List some sample questions for beginners
 3. Style the conversation so that it has a clearer structure
+4. It will keep the context of current conversation until you clear the conversation.
 
 ### Stacks I used
 
