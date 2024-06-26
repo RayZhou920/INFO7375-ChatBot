@@ -34,7 +34,7 @@ def get_model_response():
     if response.status_code == 200:
         return response.json()["message"]["content"]
     else:
-        return "Error: The model API returned an unexpected response."
+        return "Error: The model API returns an unexpected response."
 
 
 def clear_conversation():

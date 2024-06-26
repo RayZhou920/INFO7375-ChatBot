@@ -230,6 +230,7 @@ popular_health_keywords = [
     "disinfection",
     "handwashing",
     "face masks",
+    "brain health",
     "social distancing",
     "public health",
     "community health",

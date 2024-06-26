@@ -1,6 +1,6 @@
 # info7375-chatbot
 
-### Youtube video link
+### Youtube Video Link
 
 https://youtu.be/zRxHK9UWJg8
 
@@ -13,14 +13,14 @@ https://youtu.be/zRxHK9UWJg8
 4. `streamlit run chatbot.py` - Start the chatbot, which will automatically open in your browser
 5. `deactivate`- When you are done using the chatbot, deactivate the virtual environment
 
-### Domain selection
+### Domain Selection
 
 - User Base: This chatbot serves patients and the general public who seek general health information and preventive care advice.
 - Scope of Queries:
   - General health inquiries (excluding diagnosis).
   - Information about medical tests and procedures.
 
-### Unique features
+### Unique Features
 
 1. The chatbot will not respond to non-health-related questions and will provide users with an error message.
 2. It includes a list of sample questions to assist beginners.
