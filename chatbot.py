@@ -10,7 +10,6 @@ if "show_error" not in st.session_state:
     st.session_state["show_error"] = False
 
 
-# Function to convert session history to messages format
 def convert_to_messages(history):
     messages = []
     for entry in history:
@@ -21,7 +20,6 @@ def convert_to_messages(history):
     return messages
 
 
-# Function to send questions to the local LLM API
 def get_model_response():
     url = "http://localhost:11434/api/chat"
     headers = {"Content-Type": "application/json"}

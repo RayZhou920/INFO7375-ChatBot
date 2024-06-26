@@ -1,5 +1,3 @@
-# A collection of popular health-related keywords
-
 popular_health_keywords = [
     "fever",
     "cough",
@@ -244,7 +242,6 @@ popular_health_keywords = [
 ]
 
 
-# This list can be used to match keywords in user queries
 def check_keywords(query):
     found_keywords = [
         word for word in popular_health_keywords if word in query.lower()
